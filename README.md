@@ -28,8 +28,6 @@ pip install -r requirements.txt
 
 ```
 python nextbus.py "BUS ROUTE" "BUS STOP NAME" DIRECTION
-# or, the standalone version:
-python nextbus_standalone.py "BUS ROUTE" "BUS STOP NAME" DIRECTION
 ```
 
 `BUS ROUTE` and `BUS STOP NAME` are substrings that must uniquely identify a
