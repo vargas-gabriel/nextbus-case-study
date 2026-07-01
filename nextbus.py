@@ -1,3 +1,19 @@
+"""
+nextbus.py — how long until the next bus/train on a given route, stop, and direction.
+
+This is a standalone version: no local imports, just this file plus `requests`.
+
+Usage:
+    python nextbus.py "BUS ROUTE" "BUS STOP NAME" DIRECTION
+
+Example string:
+    python nextbus.py "METRO Blue Line" "Target Field Station Platform 1" south
+
+Uses the NexTrip v2 API at https://svc.metrotransit.org/nextrip/
+No API key required.
+"""
+
+
 import argparse
 import sys
 import time
