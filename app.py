@@ -12,7 +12,7 @@ from nextbus_lib import get_routes, get_directions, get_stops, next_departure_te
 
 st.set_page_config(page_title="Next Bus", page_icon="🚌")
 st.title("🚌 Next Bus")
-st.caption("Live data from Metro Transit NexTrip v2")
+st.caption("Time until the next bus/train departure for a given route, stop, and direction, via the Metro Transit NexTrip v2 API.")
 
 
 routes = get_routes()
